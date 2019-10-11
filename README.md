@@ -1,6 +1,8 @@
 # Data Scraping Tools
 A github repo that include tools used to gather data for deep learning based projects. 
 
+*This repo assumes you have gone through the beginning projects of the DL@DU repo and have some basic command line and python knowledge. 
+
 ## NLP Lyrics-based Tool 
 Our first tool will assist in NLP-based deep learning projects. With this we can make use of a python library created by GitHub user johnwmiller that allows us to scrape song lyric data from the popular lyrics website [Genius](Genius.com).
 #### Step 1:
