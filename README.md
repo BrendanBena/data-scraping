@@ -11,8 +11,14 @@ pip3 install lyricsgenius
 ~~~
 This will install not only the lyricsgenius library, but also some other useful libraries for data scraping such as beautifulsoup and requests.
 #### Step 2:
-Next, to make use of this library and Genius's API, we must obtain an access token from their website. 
+Next, to make use of this library and Genius's API, we must obtain an access token from their website. This portion requires us to sign up for an account (if you don't happen to have one already). Do this by visiting the [Genius Account Sign Up Page](https://genius.com/signup).
+
+After making an account, visit the [API Client Management Page](https://genius.com/api-clients) to sign up for an access token. 
+
+![Lyrics Genius API](/images/lyricsapi.png)
 
 
 
-//Bena's personal repo for a side project in data scraping from Genius.com to assist in future NLP-based deep learning projects.
+
+
+~~Bena's personal repo for a side project in data scraping from Genius.com to assist in future NLP-based deep learning projects.~~
