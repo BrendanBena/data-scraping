@@ -23,7 +23,7 @@ After making an account, visit the [API Client Management Page](https://genius.c
 ![Lyrics Genius API](/images/lyricsapi.png)
 
 
-Now that you have created an API client, you'll be able to generate an access token to make us of this website. The link for this page is [here](https://genius.com/api-clients) in case you need to regenerated an access token.
+Now that you have created an API client, you'll be able to generate an access token to make us of this website. The link for this page is [here](https://genius.com/api-clients) in case you need to regenerate an access token.
 
 
 
