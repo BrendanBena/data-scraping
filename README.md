@@ -27,3 +27,14 @@ After making an account, visit the [API Client Management Page](https://genius.c
 
 Now that you have created an API client, you'll be able to generate an access token to make us of this website. The link for this page is [here](https://genius.com/api-clients) in case you need to regenerate an access token.
 
+#### Step 3:
+Finally, it's time to make use of the Genius API token. I've written a program that adds some functionality on top of the lyricsgenius library that will allow us to create text files that are relativity clean and suited for NLP task. 
+If you haven't done so already, clone or download the repo and, for convenience, I would suggest just working inside this directory. Run the following program with the *-h* argument so you can see what options are available.
+~~~
+python3 lyricscraper.py -h
+~~~
+Once you have see the options available, rerun the program adding your preffered artist, number of songs, and personal Genius API token. There are defaults set if you wish to just see how it works, otherwise enter something like this:
+~~~
+python3 lyricscraper.py -a "Bob Dylan" -n 50 -t "YOUR GENIUS TOKEN"
+~~~
+Let it run for a bit (the time it takes will depend on how many songs you choose to fetch), then out should pop a text file for NLP work.
